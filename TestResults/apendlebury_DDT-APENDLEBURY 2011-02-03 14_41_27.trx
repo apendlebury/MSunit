@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="62c59b90-4627-4993-9672-ff36d1c910ea" name="apendlebury@DDT-APENDLEBURY 2011-02-03 14:41:27" runUser="AMAZE\apendlebury" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="10f2c7a1-9431-4363-bea6-41bca4858189">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\gitSourceControl\Internal\HudsonTest\MSTest\TestResults\apendlebury_DDT-APENDLEBURY 2011-02-03 14_41_27" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-02-03T14:41:27.9474844+00:00" queuing="2011-02-03T14:41:28.3295226+00:00" start="2011-02-03T14:41:28.3435240+00:00" finish="2011-02-03T14:41:29.0045901+00:00" />
+  <TestDefinitions>
+    <UnitTest name="TestForFailure" storage="c:\gitsourcecontrol\internal\hudsontest\mstest\testscripts\bin\debug\testscripts.dll" id="23437013-e3b2-3a96-3069-a3be58c370c2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a1d53693-4d08-430f-956f-7267076fee36" />
+      <TestMethod codeBase="C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\bin\Debug\TestScripts.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestScripts.UnitTest1, TestScripts" name="TestForFailure" />
+    </UnitTest>
+    <UnitTest name="TestForPass" storage="c:\gitsourcecontrol\internal\hudsontest\mstest\testscripts\bin\debug\testscripts.dll" id="517ebe38-4738-fdcc-7d2b-70ef4e6ccdf6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b9c690b3-5722-408d-8fdc-e14224a6fa32" />
+      <TestMethod codeBase="C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\bin\Debug\TestScripts.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestScripts.UnitTest1, TestScripts" name="TestForPass" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="23437013-e3b2-3a96-3069-a3be58c370c2" executionId="a1d53693-4d08-430f-956f-7267076fee36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="517ebe38-4738-fdcc-7d2b-70ef4e6ccdf6" executionId="b9c690b3-5722-408d-8fdc-e14224a6fa32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a1d53693-4d08-430f-956f-7267076fee36" testId="23437013-e3b2-3a96-3069-a3be58c370c2" testName="TestForFailure" computerName="DDT-APENDLEBURY" duration="00:00:00.0671602" startTime="2011-02-03T14:41:28.3705267+00:00" endTime="2011-02-03T14:41:28.9645861+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsFalse failed. </Message>
+          <StackTrace>   at TestScripts.UnitTest1.TestForFailure() in C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\UnitTest1.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9c690b3-5722-408d-8fdc-e14224a6fa32" testId="517ebe38-4738-fdcc-7d2b-70ef4e6ccdf6" testName="TestForPass" computerName="DDT-APENDLEBURY" duration="00:00:00.0001611" startTime="2011-02-03T14:41:28.9745871+00:00" endTime="2011-02-03T14:41:28.9775874+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

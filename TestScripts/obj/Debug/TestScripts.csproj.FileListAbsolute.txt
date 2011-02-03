@@ -1,0 +1,5 @@
+C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\bin\Debug\TestScripts.dll
+C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\bin\Debug\TestScripts.pdb
+C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\obj\Debug\ResolveAssemblyReference.cache
+C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\obj\Debug\TestScripts.dll
+C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\obj\Debug\TestScripts.pdb

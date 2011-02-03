@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8ffa4438-fb9e-4401-b581-50e0a3f5fda7" name="apendlebury@DDT-APENDLEBURY 2011-02-03 14:22:20" runUser="AMAZE\apendlebury" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="10f2c7a1-9431-4363-bea6-41bca4858189">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\gitSourceControl\Internal\HudsonTest\MSTest\TestResults\apendlebury_DDT-APENDLEBURY 2011-02-03 14_22_20" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-02-03T14:22:20.4087420+00:00" queuing="2011-02-03T14:22:23.1970208+00:00" start="2011-02-03T14:22:23.4320443+00:00" finish="2011-02-03T14:22:24.2791290+00:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\gitsourcecontrol\internal\hudsontest\mstest\testscripts\bin\debug\testscripts.dll" id="76e8367d-f977-4a04-73ef-4e821959d1e6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e35d703b-783f-47be-b047-26a3afde4ad3" />
+      <TestMethod codeBase="C:\gitSourceControl\Internal\HudsonTest\MSTest\TestScripts\bin\Debug\TestScripts.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestScripts.UnitTest1, TestScripts" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="76e8367d-f977-4a04-73ef-4e821959d1e6" executionId="e35d703b-783f-47be-b047-26a3afde4ad3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e35d703b-783f-47be-b047-26a3afde4ad3" testId="76e8367d-f977-4a04-73ef-4e821959d1e6" testName="TestMethod1" computerName="DDT-APENDLEBURY" duration="00:00:00.0285323" startTime="2011-02-03T14:22:23.5350546+00:00" endTime="2011-02-03T14:22:24.2201231+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
